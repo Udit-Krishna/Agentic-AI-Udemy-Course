@@ -61,3 +61,23 @@ Anthropic distinguishes two types:
 
 - Monitor continuously
 - Guardrails ensure your agents behave safely, consistently, and within your intended boundaries
+
+
+## Agentic AI Frameworks (Low to High complexity)
+
+1. No Framework, MCP (Model Context Protocol)
+2. OpenAI Agents SDK, Crew AI
+3. LangGraph, AutoGen
+
+## Resources vs Tools
+
+Two ways to enhance LLM capabilities
+- **Resources**
+    - We can provide an LLM with resources to improve its expertise.
+    - Basically, this just means shoving data relevant to the question into the prompt.
+    - There are techniques like RAG to get really smart at picking relevant content
+- **Tools** (give LLMs autonomy):
+    - Give an LLM the power to carry out actions like query a database or message other LLMs.
+    ![Tool Calling](zAttachments/tool-calling.png)
+
+
