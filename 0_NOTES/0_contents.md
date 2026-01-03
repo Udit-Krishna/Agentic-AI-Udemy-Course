@@ -1,6 +1,6 @@
 # Contents of the Notes
 
-- Week 1: Foundations
+- Week 1: [Foundations](1_foundations.md)
 - Week 2: OpenAI Agents SDK
 - Week 3: CrewAI
 - Week 4: LangGraph
